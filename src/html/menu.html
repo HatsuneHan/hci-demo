@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/home.css" type="text/css">
+    <link rel="stylesheet" href="../css/favor.css" type="text/css">
+    <link rel="stylesheet" href="../css/search.css" type="text/css">
+    <link rel="stylesheet" href="../css/upload.css" type="text/css">
+    <link rel="stylesheet" href="../css/details.css" type="text/css">
+</head>
+
+<body>
+<div class="overall" id="top">
+    <header class="header">
+
+        <div class="header-item">
+            <a href="../../index.html"><img src="../images/standard_logo.png" alt="logo" ></a>
+        </div>
+
+        <div class="topnav">
+            <ul class="nav">
+                <li>
+                    <a href="../../index.html">就餐信息</a>
+                </li>
+
+                <li class="now">
+                    <a href="../html/menu.html"><span>预约点餐</span></a>
+                </li>
+
+                <li>
+                    <a href="../html/help.html">问题反馈</a>
+                </li>
+
+                <li>
+                    <a href="#">讨论区</a>
+                </li>
+
+                <li>
+                    <a href="#">使用指南</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class = "user" id = "userlist">
+            <a href="">我的账户</a>
+            <div class="usercentre">
+                <a href="#">
+                    <img src="../images/upload.png" alt="upload">
+                    <span>修改密码</span>
+                </a>
+                <a href="#">
+                    <img src="../images/login.png" alt="login">
+                    <span>安全退出</span>
+                </a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="searchframe">
+
+        <div class="mysearchframe">
+            <table  class="search">
+                <tr class="tabletext">
+                    <td class="line1" colspan="2">
+                        <span>&nbsp&nbsp就餐信息查询</span>
+                    </td>
+                </tr>
+
+                <tr class="line2">
+                    <td class="introsel">
+                        校区：&nbsp
+                        <select style="width:100px;">
+                            <option value ="hd">邯郸校区</option>
+                            <option value ="jw">江湾校区</option>
+                            <option value ="zj">张江校区</option>
+                            <option value ="fl">枫林校区</option>
+                        </select>
+                        &nbsp&nbsp区域：&nbsp
+                        <select style="width:100px;">
+                            <option value ="hd">南区</option>
+                            <option value ="jw">东区</option>
+                            <option value ="zj">北区</option>
+                            <option value ="fl">本部</option>
+                        </select>
+                        &nbsp&nbsp食堂：&nbsp
+                        <select style="width:100px;">
+                            <option value ="hd">南区食堂</option>
+                            <option value ="jw">南区教职工餐厅</option>
+                            <option value ="zj">南苑餐厅</option>
+                        </select>
+                        &nbsp&nbsp楼层：&nbsp
+                        <select style="width:100px;">
+                            <option value ="jw">二楼同茂兴</option>
+                            <option value ="hd">一楼东大</option>
+                            <option value ="zj">清真食堂</option>
+                            <option value ="fl">春晖餐厅</option>
+                        </select>
+                        &nbsp&nbsp窗口：&nbsp
+                        <select style="width:100px;">
+                            <option value ="jw">大众餐1</option>
+                            <option value ="hd">大众餐2</option>
+                            <option value ="zj">自选菜</option>
+                            <option value ="fl">黄焖鸡</option>
+                            <option value ="jw">冒菜</option>
+                            <option value ="hd">小炒</option>
+                            <option value ="zj">香锅</option>
+                            <option value ="fl">小面</option>
+                            <option value ="fl">炒饭</option>
+                        </select>
+                        &nbsp&nbsp&nbsp&nbsp
+                        <input type="button" value="查询" class="filterbutton">
+                    </td>
+
+                </tr>
+                <tr class="line2">
+                    <td colspan="2">
+                        <div class="introsel">
+                            当前叫号：<b>017</b>&nbsp&nbsp&nbsp当前取号：<b>026</b>&nbsp&nbsp前方人数：<b>9</b>&nbsp&nbsp预计等待：<b>15min</b>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="line2">
+                    <td colspan="2">
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>红烧肉圆 3.2元/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>红烧肉 3.2元/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>红烧鸡腿 3.2/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>土豆丝 1.5元/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>炒青菜 0.7元/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>炒包菜 1.5元/份 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>萝卜排骨 3.2元 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div class = "menulist" style="float: left">
+                            <img src="../images/ma.png" alt="" width="125" height="125" >
+                            <label>米饭 0.1元/碗 </label>
+                            <input type="checkbox" name="">
+                            <select style="width:35px;">
+                                <option value ="hd" class = "nop">1</option>
+                                <option value ="jw" class = "nop">2</option>
+                                <option value ="zj" class = "nop">3</option>
+                                <option value ="fl" class = "nop">4</option>
+                            </select>
+                        </div>
+                        <div style="clear:both"></div>
+                        <div id = "buy">
+                            <input type="button" value="结算" class="filterbutton" id = "get" onclick="window.location.href='order.html'">
+                        </div>
+                    </td>
+
+                </tr>
+
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
