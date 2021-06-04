@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/search.css" type="text/css">
     <link rel="stylesheet" href="src/css/upload.css" type="text/css">
     <link rel="stylesheet" href="src/css/details.css" type="text/css">
+    <link rel="stylesheet" href="src/css/bbs.css" type="text/css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
                     </li>
 
                     <li>
-                        <a href="#">讨论区</a>
+                        <a href="./src/html/bbs.html">讨论区</a>
                     </li>
 
                     <li>
@@ -101,20 +102,20 @@
                                 <option value ="fl">春晖餐厅</option>
                             </select>
                             &nbsp&nbsp&nbsp&nbsp
-                            <input type="button" value="查询" class="filterbutton">
+                            <input type="button" value="查询" class="filterbutton" onclick="mysearch()">
                         </td>
 
                     </tr>
                     <tr class="line2">
                         <td colspan="2">
                             <div class="introsel" id = "title">
-                                <b>当前状况：拥挤</b>
+<!--                                <b>当前状况：拥挤</b>-->
                             </div>
                         </td>
                     </tr>
                     <tr class="line2">
                         <td colspan="2">
-                            <div class="intropic">
+                            <div class="intropic" id = "can" style="display: none">
                                 <a name="about-us" style="position: absolute; width:140px; height:35px;left:350px;top:135px" href="./src/html/menu.html"></a>
                                 <canvas id="mycanvas" width="1200" height="550"></canvas>
                             </div>
@@ -125,6 +126,9 @@
             </div>
     </div>
     </div>
-        <script src="./src/js/canvas.js"></script>
+    <script src = "./src/js/jquery-3.3.1.min.js"></script>
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/canvas.js"></script>
+
 </body>
 </html>

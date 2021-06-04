@@ -8,46 +8,46 @@ color_b = "#f9cdad";
 color_c = "#fe4365";
 
 
-ctx.fillStyle="skyblue";
+ctx.fillStyle= color_b;
 ctx.fillRect(300,10,140,35);
 ctx.fillStyle="#000000";
-ctx.fillText("大众餐1",335,35)
-ctx.fillStyle="skyblue";
+ctx.fillText("川渝菜",335,35)
+ctx.fillStyle= color_a;
 ctx.fillRect(442,10,140,35);
 ctx.fillStyle="#000000";
-ctx.fillText("大众餐2",475,35)
-ctx.fillStyle="skyblue";
+ctx.fillText("大众餐",475,35)
+ctx.fillStyle= color_b;
 
 ctx.fillRect(584,10,140,35);
 ctx.fillStyle="#000000";
 ctx.fillText("自选菜",624,35)
-ctx.fillStyle="skyblue";
+ctx.fillStyle=color_b;
 
 
 ctx.fillRect(726,10,70,35);
 ctx.fillStyle="#000000";
 ctx.fillText("黄焖鸡",732,35)
-ctx.fillStyle="skyblue";
+ctx.fillStyle = color_c;
 
 ctx.fillRect(798,10,70,35);
 ctx.fillStyle="#000000";
 ctx.fillText("冒菜",812,35)
-ctx.fillStyle="skyblue";
+ctx.fillStyle= color_c;
 
 ctx.fillRect(870,10,45,50);
 ctx.fillStyle="#000000";
 ctx.fillText("小炒",873,35)
-ctx.fillStyle="skyblue";
+ctx.fillStyle= color_b;
 
 ctx.fillRect(870,62,45,50);
 ctx.fillStyle="#000000";
 ctx.fillText("香锅",873,93)
-ctx.fillStyle="skyblue";
+ctx.fillStyle=color_b;
 
 ctx.fillRect(870,114,45,50);
 ctx.fillStyle="#000000";
 ctx.fillText("小面",873,144)
-ctx.fillStyle="skyblue";
+ctx.fillStyle= color_a;
 
 ctx.fillRect(870,166,45,50);
 ctx.fillStyle="#000000";
